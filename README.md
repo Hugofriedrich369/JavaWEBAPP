@@ -1,10 +1,12 @@
 # ☕ | Java Web APP
+## ❔ | Como Utilizar?
+Para executar a aplicação, é utilizado o Maven e o Jetty. Utilize o seguinte comando Maven para inicializar a aplicação:
 
-## ❔ | Como utilizar?
-Para a aplicação rodar utilizamos jetty e maven, utilize o comando maven: mvn jetty:run. 
+mvn jetty:run
 
-## ⚙️ | Como funciona?
-A aplicação é uma lista de veículos, ao iniciar você será levado para uma tela inicial, onde terá um botão para ir até a lista.
-<br>
-<br>
-Na lista você poderá escolher qual tipo de veículo gostaria de ver, sendo carro ou moto.
+## ⚙️ | Funcionalidades
+A aplicação consiste em uma lista de veículos. Ao iniciar a aplicação, será aberta na porta 8080, com uma tela inicial simples com uma breve explicação e um botão para acessar a lista de veículos.
+
+Lista de Veículos
+Na lista de veículos, você pode escolher entre ver carros e motos. Cada seção irá exibir uma lista de marcas e modelos correspondentes.
+
