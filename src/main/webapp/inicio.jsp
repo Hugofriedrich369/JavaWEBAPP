@@ -62,7 +62,7 @@
     <h1>Lista de Veículos</h1>
 
     <div class="buttons">
-        <form action="exemplo" method="get">
+        <form action="inicio" method="get">
             <button type="submit" name="veiculo" value="carros">Carros</button>
             <button type="submit" name="veiculo" value="motos">Motos</button>
         </form>
@@ -80,7 +80,7 @@
 </main>
 <script>
     function limparLista() {
-        window.location.href = '/exemplo';
+        window.location.href = '/inicio';
     }
 </script>
 </body>

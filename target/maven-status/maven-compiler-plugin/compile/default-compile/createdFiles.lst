@@ -2,4 +2,4 @@ br\com\ibm\models\Moto.class
 br\com\ibm\Main.class
 br\com\ibm\models\Veiculo.class
 br\com\ibm\models\Carro.class
-br\com\ibm\ExemploServlet.class
+br\com\ibm\VeiculoServlet.class

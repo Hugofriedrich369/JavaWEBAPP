@@ -9,12 +9,11 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@WebServlet(name = "ExemploServlet", urlPatterns = {"/exemplo"})
-public class ExemploServlet extends HttpServlet {
+@WebServlet(name = "VeiculoServlet", urlPatterns = {"/inicio"})
+public class VeiculoServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
@@ -41,7 +40,7 @@ public class ExemploServlet extends HttpServlet {
                 request.setAttribute("veiculos", motos);
             }
         }
-        RequestDispatcher dispatcher = request.getRequestDispatcher("/exemplo.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("/inicio.jsp");
         dispatcher.forward(request, response);
     }
 }

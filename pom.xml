@@ -44,7 +44,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>br.com.ibm.ExemploServlet</mainClass>
+                <mainClass>br.com.ibm.VeiculoServlet</mainClass>
               </manifest>
             </archive>
           </configuration>
